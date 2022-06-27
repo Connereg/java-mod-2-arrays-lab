@@ -17,6 +17,7 @@ public class Main {
             System.out.println("Adding this student to studentlist: " + thisStudent.name);
             nameList[i] = thisStudent.name;
         }
+        scanner.close();
         for (String student : nameList) {
             System.out.println(student);
         }
