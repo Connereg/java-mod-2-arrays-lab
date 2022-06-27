@@ -21,6 +21,7 @@ public class Main {
         for (String student : nameList) {
             System.out.println(student);
         }
+        System.out.println("This class has " + nameList.length + " students in it");
         
     } // MAIN END
 
